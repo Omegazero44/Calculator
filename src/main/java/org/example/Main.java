@@ -14,6 +14,9 @@ public class Main {
         Scanner scannerVariable = new Scanner(System.in);
         Calculator calculator = new Calculator();
 
+        out.println("Erste Zahl bitte.");
+        zahl1 = Eingabe.zahl();
+
 
         System.out.println("Bitte wählen Sie eine Rechenart aus:");
         out.println("1 Addition +");
@@ -23,8 +26,6 @@ public class Main {
 
         String op = scannerVariable.nextLine();
 
-        out.println("Erste Zahl bitte.");
-        zahl1 = Eingabe.zahl();
         out.println("Zweite Zahl bitte.");
         zahl2 = Eingabe.zahl();
 
